@@ -1,0 +1,142 @@
+{
+	"common" : {
+		"contexts" : [
+			
+			{
+				"context" : "kGlobal",
+				"shortcuts" : [
+					
+					{
+						"Edit.BeamTogether" : [ "Alt+Num+." ]
+					},
+					
+					{
+						"Edit.BreakBeam" : [ "Alt+," ]
+					},
+					
+					{
+						"Edit.ChangeVoice" : [ "Ctrl+Alt+V" ]
+					},
+					
+					{
+						"Edit.CreatePercussionLegendSoundingInstruments" : [ "Ctrl+L" ]
+					},
+					
+					{
+						"Edit.LineOfLyrics" : [ "`" ]
+					},
+					
+					{
+						"Edit.PasteArticulations" : [ "Ctrl+Shift+V" ]
+					},
+					
+					{
+						"Edit.RemoveRests" : [ "Alt+Del" ]
+					},
+					
+					{
+						"Edit.StemForceDirection?ForcedVoiceDirection=kForceStemsDown" : [ "Alt+1" ]
+					},
+					
+					{
+						"Edit.StemForceDirection?ForcedVoiceDirection=kForceStemsUp" : [ "Alt+2" ]
+					},
+					
+					{
+						"Edit.UngroupDynamics" : [ "Alt+Shift+U" ]
+					},
+					
+					{
+						"Window.ShowBottomPanel?=true" : [ "Ctrl+CapsLock" ]
+					},
+					
+					{
+						"Script.RunLastScript" : [ "Ctrl+PgDown" ]
+					},
+					
+					{
+						"Play.StartOrStop?PlayFromLocation=kPlayhead" : [ "DELETE:F8" ]
+					},
+					
+					{
+						"Play.StartOrStop?PlayFromLocation=kSelection" : [ "MIDI:CC41" ]
+					},
+					
+					{
+						"Play.Stop" : [ "MIDI:CC42" ]
+					},
+					
+					{
+						"Play.Rewind" : [ "DELETE:F7" ]
+					},
+					
+					{
+						"Play.Forward" : [ "DELETE:F9" ]
+					}
+				]
+			},
+			
+			{
+				"context" : "kWriteMode",
+				"shortcuts" : [
+					
+					{
+						"NoteInput.CreateBarRepeatRegion" : [ "Ctrl+Shift+R" ]
+					},
+					
+					{
+						"NoteInput.CreateSlashedRegion" : [ "Ctrl+Shift+F" ]
+					},
+					
+					{
+						"NoteInput.SetDotted" : [ "Num+." ]
+					}
+				]
+			},
+			
+			{
+				"context" : "kReadMode",
+				"shortcuts" : [
+					
+					{
+						"View.MoveViewportNextPage" : [ "Right", "Num+Right", "Down", "Num+Down", "PgDown" ]
+					},
+					
+					{
+						"View.MoveViewportPreviousPage" : [ "Left", "Num+Left", "Up", "Num+Up", "PgUp" ]
+					}
+				]
+			}
+		]
+	},
+	"delta" : "true",
+	"version" : "4.3.30",
+	"windows" : {
+		"contexts" : [
+			
+			{
+				"context" : "kGlobal",
+				"shortcuts" : [
+					
+					{
+						"Help.Manual" : [
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1",
+							"F1"
+						]
+					}
+				]
+			}
+		]
+	}
+}
